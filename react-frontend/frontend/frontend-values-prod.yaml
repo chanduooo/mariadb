@@ -5,12 +5,12 @@
 replicaCount: 1
 
 image:
-  repository: malleshdevops/createat-devops-task
+  repository: malleshdevops/devopsus-project
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "react-v11"
 
-imagePullSecrets: []
+imagePullSecrets: ["name":"regcred"]
 nameOverride: ""
 fullnameOverride: ""
 
