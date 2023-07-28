@@ -5,12 +5,12 @@
 replicaCount: 1
 
 image:
-  repository: malleshdevops/createat-devops-task
+  repository: malleshdevops/devopsus-project
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "spring-v1"
+  tag: "java-v1"
 
-imagePullSecrets: ""
+imagePullSecrets: ["name:regcred"]
 nameOverride: ""
 fullnameOverride: ""
 
